@@ -16,6 +16,32 @@ main {
 header > img {
     height: 80px;
 }
+main > img{
+    height: 160px;
+}
+
+nav{
+    float: right;
+    margin-top: 25px;
+}
+
 .large-image {
     height: 160px;
+}
+
+#left{
+    background-color: grey;
+}
+
+.btn{
+    color: indianred;
+    text-decoration: none;
+    margin: 14px;
+}
+
+.signin{
+    border-color: gray;
+    border-style: solid;
+    padding: 5px 30px;
+    border-radius: 15px;
 }
