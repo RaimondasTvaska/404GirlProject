@@ -1,40 +1,62 @@
+body{
+    background-color: gainsboro;
+}
+body *{
+    color: grey;
+    font-family: "consolas", sans-serif;
+}
 header {
-    background-color: yellow;
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-left: calc((100% - 600px) / 2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
+}
+header > *{
+    display:inline-block
 }
 
 main {
-    background-color: yellowgreen;
+    background-color: rgb(243, 247, 236);
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-left: calc((100% - 600px) / 2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
 }
+
 header > img {
     height: 80px;
 }
+
 main > img{
-    height: 160px;
+    height: 320px;
 }
 
 nav{
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
+}
+
+main > *{
+    display: inline-block;
+    width: 49%;
+}
+
+main > div > h1{
+    font-size: 100px;
+}
+
+main > div > p{
+    display: block;
 }
 
 .large-image {
     height: 160px;
 }
 
-#left{
-    background-color: grey;
-}
+
 
 .btn{
-    color: indianred;
+
     text-decoration: none;
     margin: 14px;
 }
